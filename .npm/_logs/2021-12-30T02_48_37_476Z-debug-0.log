@@ -1,0 +1,541 @@
+0 verbose cli [
+0 verbose cli   '/usr/local/bin/node',
+0 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+0 verbose cli   'exec',
+0 verbose cli   '--',
+0 verbose cli   'create-react-app',
+0 verbose cli   'amplifyapp'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v17.3.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/root/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 2ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 4ms
+16 timing config:load:setEnvs Completed in 2ms
+17 timing config:load Completed in 22ms
+18 timing npm:load:configload Completed in 23ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 11ms
+21 timing npm:load:display Completed in 14ms
+22 verbose logfile /root/.npm/_logs/2021-12-30T02_48_37_476Z-debug-0.log
+23 timing npm:load:logFile Completed in 12ms
+24 timing npm:load:timers Completed in 1ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 53ms
+27 http fetch GET 200 https://registry.npmjs.org/create-react-app 2397ms (cache revalidated)
+28 timing arborist:ctor Completed in 2ms
+29 timing arborist:ctor Completed in 0ms
+30 timing arborist:ctor Completed in 0ms
+31 timing idealTree:init Completed in 13ms
+32 timing idealTree:userRequests Completed in 5ms
+33 silly idealTree buildDeps
+34 silly fetch manifest create-react-app@*
+35 http fetch GET 200 https://registry.npmjs.org/create-react-app 37ms (cache hit)
+36 silly placeDep ROOT create-react-app@5.0.0 OK for:  want: *
+37 silly fetch manifest chalk@^4.1.2
+38 silly fetch manifest commander@^4.1.1
+39 silly fetch manifest cross-spawn@^7.0.3
+40 silly fetch manifest envinfo@^7.8.1
+41 silly fetch manifest fs-extra@^10.0.0
+42 silly fetch manifest hyperquest@^2.1.3
+43 silly fetch manifest prompts@^2.4.2
+44 silly fetch manifest semver@^7.3.5
+45 silly fetch manifest tar-pack@^3.4.1
+46 silly fetch manifest tmp@^0.2.1
+47 silly fetch manifest validate-npm-package-name@^3.0.0
+48 http fetch GET 200 https://registry.npmjs.org/fs-extra 250ms (cache hit)
+49 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name 236ms (cache hit)
+50 http fetch GET 200 https://registry.npmjs.org/cross-spawn 271ms (cache revalidated)
+51 http fetch GET 200 https://registry.npmjs.org/commander 276ms (cache revalidated)
+52 http fetch GET 200 https://registry.npmjs.org/envinfo 2219ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/chalk 2249ms (cache revalidated)
+54 http fetch GET 200 https://registry.npmjs.org/prompts 4261ms (cache revalidated)
+55 http fetch GET 200 https://registry.npmjs.org/hyperquest 4786ms (cache revalidated)
+56 http fetch GET 200 https://registry.npmjs.org/tmp 6236ms (cache revalidated)
+57 http fetch GET 200 https://registry.npmjs.org/tar-pack 6801ms (cache revalidated)
+58 http fetch GET 200 https://registry.npmjs.org/semver 8276ms (cache revalidated)
+59 timing idealTree:#root Completed in 8364ms
+60 silly placeDep ROOT chalk@4.1.2 OK for: create-react-app@5.0.0 want: ^4.1.2
+61 silly placeDep ROOT commander@4.1.1 OK for: create-react-app@5.0.0 want: ^4.1.1
+62 silly placeDep ROOT cross-spawn@7.0.3 OK for: create-react-app@5.0.0 want: ^7.0.3
+63 silly placeDep ROOT envinfo@7.8.1 OK for: create-react-app@5.0.0 want: ^7.8.1
+64 silly placeDep ROOT fs-extra@10.0.0 OK for: create-react-app@5.0.0 want: ^10.0.0
+65 silly placeDep ROOT hyperquest@2.1.3 OK for: create-react-app@5.0.0 want: ^2.1.3
+66 silly placeDep ROOT prompts@2.4.2 OK for: create-react-app@5.0.0 want: ^2.4.2
+67 silly placeDep ROOT semver@7.3.5 OK for: create-react-app@5.0.0 want: ^7.3.5
+68 silly placeDep ROOT tar-pack@3.4.1 OK for: create-react-app@5.0.0 want: ^3.4.1
+69 silly placeDep ROOT tmp@0.2.1 OK for: create-react-app@5.0.0 want: ^0.2.1
+70 silly placeDep ROOT validate-npm-package-name@3.0.0 OK for: create-react-app@5.0.0 want: ^3.0.0
+71 silly fetch manifest ansi-styles@^4.1.0
+72 silly fetch manifest supports-color@^7.1.0
+73 silly fetch manifest path-key@^3.1.0
+74 silly fetch manifest shebang-command@^2.0.0
+75 silly fetch manifest which@^2.0.1
+76 silly fetch manifest graceful-fs@^4.2.0
+77 silly fetch manifest jsonfile@^6.0.1
+78 silly fetch manifest universalify@^2.0.0
+79 silly fetch manifest buffer-from@^0.1.1
+80 silly fetch manifest duplexer2@~0.0.2
+81 silly fetch manifest through2@~0.6.3
+82 silly fetch manifest kleur@^3.0.3
+83 silly fetch manifest sisteransi@^1.0.5
+84 silly fetch manifest lru-cache@^6.0.0
+85 silly fetch manifest debug@^2.2.0
+86 silly fetch manifest fstream@^1.0.10
+87 silly fetch manifest fstream-ignore@^1.0.5
+88 silly fetch manifest once@^1.3.3
+89 silly fetch manifest readable-stream@^2.1.4
+90 silly fetch manifest rimraf@^2.5.1
+91 silly fetch manifest tar@^2.2.1
+92 silly fetch manifest uid-number@^0.0.6
+93 silly fetch manifest rimraf@^3.0.0
+94 silly fetch manifest builtins@^1.0.3
+95 http fetch GET 200 https://registry.npmjs.org/debug 347ms (cache hit)
+96 http fetch GET 200 https://registry.npmjs.org/builtins 344ms (cache hit)
+97 http fetch GET 200 https://registry.npmjs.org/uid-number 351ms (cache hit)
+98 http fetch GET 200 https://registry.npmjs.org/ansi-styles 430ms (cache revalidated)
+99 http fetch GET 200 https://registry.npmjs.org/shebang-command 430ms (cache revalidated)
+100 http fetch GET 200 https://registry.npmjs.org/path-key 432ms (cache revalidated)
+101 http fetch GET 200 https://registry.npmjs.org/supports-color 437ms (cache revalidated)
+102 http fetch GET 200 https://registry.npmjs.org/which 437ms (cache revalidated)
+103 http fetch GET 200 https://registry.npmjs.org/buffer-from 433ms (cache revalidated)
+104 http fetch GET 200 https://registry.npmjs.org/graceful-fs 440ms (cache revalidated)
+105 http fetch GET 200 https://registry.npmjs.org/jsonfile 442ms (cache revalidated)
+106 http fetch GET 200 https://registry.npmjs.org/universalify 444ms (cache revalidated)
+107 http fetch GET 200 https://registry.npmjs.org/fstream 428ms (cache revalidated)
+108 http fetch GET 200 https://registry.npmjs.org/once 428ms (cache revalidated)
+109 http fetch GET 200 https://registry.npmjs.org/tar 430ms (cache revalidated)
+110 http fetch GET 200 https://registry.npmjs.org/rimraf 441ms (cache revalidated)
+111 http fetch GET 200 https://registry.npmjs.org/readable-stream 447ms (cache revalidated)
+112 http fetch GET 200 https://registry.npmjs.org/duplexer2 2277ms (cache revalidated)
+113 http fetch GET 200 https://registry.npmjs.org/kleur 2800ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/sisteransi 4303ms (cache revalidated)
+115 http fetch GET 200 https://registry.npmjs.org/through2 4312ms (cache revalidated)
+116 http fetch GET 200 https://registry.npmjs.org/lru-cache 6295ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/fstream-ignore 6852ms (cache revalidated)
+118 timing idealTree:node_modules/create-react-app Completed in 6949ms
+119 silly placeDep ROOT ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+120 silly placeDep ROOT supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+121 silly fetch manifest color-convert@^2.0.1
+122 silly fetch manifest has-flag@^4.0.0
+123 http fetch GET 200 https://registry.npmjs.org/color-convert 47ms (cache revalidated)
+124 http fetch GET 200 https://registry.npmjs.org/has-flag 58ms (cache revalidated)
+125 timing idealTree:node_modules/chalk Completed in 75ms
+126 silly placeDep ROOT color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+127 silly fetch manifest color-name@~1.1.4
+128 http fetch GET 200 https://registry.npmjs.org/color-name 58ms (cache revalidated)
+129 timing idealTree:node_modules/ansi-styles Completed in 64ms
+130 silly placeDep ROOT color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+131 timing idealTree:node_modules/color-convert Completed in 3ms
+132 timing idealTree:node_modules/color-name Completed in 0ms
+133 timing idealTree:node_modules/commander Completed in 0ms
+134 silly placeDep ROOT path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+135 silly placeDep ROOT shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+136 silly placeDep ROOT which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+137 silly fetch manifest shebang-regex@^3.0.0
+138 silly fetch manifest isexe@^2.0.0
+139 http fetch GET 200 https://registry.npmjs.org/shebang-regex 60ms (cache revalidated)
+140 http fetch GET 200 https://registry.npmjs.org/isexe 61ms (cache revalidated)
+141 timing idealTree:node_modules/cross-spawn Completed in 83ms
+142 timing idealTree:node_modules/envinfo Completed in 0ms
+143 silly placeDep ROOT graceful-fs@4.2.8 OK for: fs-extra@10.0.0 want: ^4.2.0
+144 silly placeDep ROOT jsonfile@6.1.0 OK for: fs-extra@10.0.0 want: ^6.0.1
+145 silly placeDep ROOT universalify@2.0.0 OK for: fs-extra@10.0.0 want: ^2.0.0
+146 timing idealTree:node_modules/fs-extra Completed in 21ms
+147 timing idealTree:node_modules/graceful-fs Completed in 0ms
+148 silly placeDep ROOT buffer-from@0.1.2 OK for: hyperquest@2.1.3 want: ^0.1.1
+149 silly placeDep ROOT duplexer2@0.0.2 OK for: hyperquest@2.1.3 want: ~0.0.2
+150 silly placeDep ROOT through2@0.6.5 OK for: hyperquest@2.1.3 want: ~0.6.3
+151 silly fetch manifest readable-stream@~1.1.9
+152 silly fetch manifest readable-stream@>=1.0.33-1 <1.1.0-0
+153 silly fetch manifest xtend@>=4.0.0 <4.1.0-0
+154 http fetch GET 200 https://registry.npmjs.org/xtend 86ms (cache revalidated)
+155 timing idealTree:node_modules/hyperquest Completed in 97ms
+156 timing idealTree:node_modules/buffer-from Completed in 0ms
+157 silly placeDep ROOT readable-stream@1.1.14 OK for: duplexer2@0.0.2 want: ~1.1.9
+158 silly fetch manifest core-util-is@~1.0.0
+159 silly fetch manifest isarray@0.0.1
+160 silly fetch manifest string_decoder@~0.10.x
+161 silly fetch manifest inherits@~2.0.1
+162 http fetch GET 200 https://registry.npmjs.org/core-util-is 44ms (cache hit)
+163 http fetch GET 200 https://registry.npmjs.org/isarray 83ms (cache revalidated)
+164 http fetch GET 200 https://registry.npmjs.org/string_decoder 86ms (cache revalidated)
+165 http fetch GET 200 https://registry.npmjs.org/inherits 90ms (cache revalidated)
+166 timing idealTree:node_modules/duplexer2 Completed in 103ms
+167 timing idealTree:node_modules/jsonfile Completed in 0ms
+168 timing idealTree:node_modules/path-key Completed in 0ms
+169 silly placeDep ROOT kleur@3.0.3 OK for: prompts@2.4.2 want: ^3.0.3
+170 silly placeDep ROOT sisteransi@1.0.5 OK for: prompts@2.4.2 want: ^1.0.5
+171 timing idealTree:node_modules/prompts Completed in 11ms
+172 timing idealTree:node_modules/kleur Completed in 0ms
+173 silly placeDep ROOT core-util-is@1.0.3 OK for: readable-stream@1.1.14 want: ~1.0.0
+174 silly placeDep ROOT inherits@2.0.4 OK for: readable-stream@1.1.14 want: ~2.0.1
+175 silly placeDep ROOT isarray@0.0.1 OK for: readable-stream@1.1.14 want: 0.0.1
+176 silly placeDep ROOT string_decoder@0.10.31 OK for: readable-stream@1.1.14 want: ~0.10.x
+177 timing idealTree:node_modules/readable-stream Completed in 21ms
+178 timing idealTree:node_modules/core-util-is Completed in 0ms
+179 timing idealTree:node_modules/inherits Completed in 0ms
+180 timing idealTree:node_modules/isarray Completed in 0ms
+181 silly placeDep ROOT lru-cache@6.0.0 OK for: semver@7.3.5 want: ^6.0.0
+182 silly fetch manifest yallist@^4.0.0
+183 http fetch GET 200 https://registry.npmjs.org/yallist 61ms (cache revalidated)
+184 timing idealTree:node_modules/semver Completed in 68ms
+185 silly placeDep ROOT yallist@4.0.0 OK for: lru-cache@6.0.0 want: ^4.0.0
+186 timing idealTree:node_modules/lru-cache Completed in 6ms
+187 silly placeDep ROOT shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+188 timing idealTree:node_modules/shebang-command Completed in 4ms
+189 timing idealTree:node_modules/shebang-regex Completed in 0ms
+190 timing idealTree:node_modules/sisteransi Completed in 0ms
+191 timing idealTree:node_modules/string_decoder Completed in 0ms
+192 silly placeDep ROOT has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+193 timing idealTree:node_modules/supports-color Completed in 2ms
+194 timing idealTree:node_modules/has-flag Completed in 0ms
+195 silly placeDep ROOT debug@2.6.9 OK for: tar-pack@3.4.1 want: ^2.2.0
+196 silly placeDep ROOT fstream@1.0.12 OK for: tar-pack@3.4.1 want: ^1.0.10
+197 silly placeDep ROOT fstream-ignore@1.0.5 OK for: tar-pack@3.4.1 want: ^1.0.5
+198 silly placeDep ROOT once@1.4.0 OK for: tar-pack@3.4.1 want: ^1.3.3
+199 silly placeDep node_modules/tar-pack readable-stream@2.3.7 OK for: tar-pack@3.4.1 want: ^2.1.4
+200 silly placeDep ROOT rimraf@2.7.1 OK for: tar-pack@3.4.1 want: ^2.5.1
+201 silly placeDep ROOT tar@2.2.2 OK for: tar-pack@3.4.1 want: ^2.2.1
+202 silly placeDep ROOT uid-number@0.0.6 OK for: tar-pack@3.4.1 want: ^0.0.6
+203 silly fetch manifest ms@2.0.0
+204 silly fetch manifest mkdirp@>=0.5 0
+205 silly fetch manifest minimatch@^3.0.0
+206 silly fetch manifest wrappy@1
+207 silly fetch manifest isarray@~1.0.0
+208 silly fetch manifest process-nextick-args@~2.0.0
+209 silly fetch manifest safe-buffer@~5.1.1
+210 silly fetch manifest string_decoder@~1.1.1
+211 silly fetch manifest util-deprecate@~1.0.1
+212 silly fetch manifest glob@^7.1.3
+213 silly fetch manifest block-stream@*
+214 http fetch GET 200 https://registry.npmjs.org/safe-buffer 88ms (cache hit)
+215 http fetch GET 200 https://registry.npmjs.org/block-stream 83ms (cache hit)
+216 http fetch GET 200 https://registry.npmjs.org/ms 139ms (cache revalidated)
+217 http fetch GET 200 https://registry.npmjs.org/mkdirp 158ms (cache revalidated)
+218 http fetch GET 200 https://registry.npmjs.org/minimatch 159ms (cache revalidated)
+219 http fetch GET 200 https://registry.npmjs.org/wrappy 161ms (cache revalidated)
+220 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 162ms (cache revalidated)
+221 http fetch GET 200 https://registry.npmjs.org/glob 155ms (cache revalidated)
+222 http fetch GET 200 https://registry.npmjs.org/util-deprecate 662ms (cache revalidated)
+223 timing idealTree:node_modules/tar-pack Completed in 704ms
+224 silly placeDep ROOT ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+225 timing idealTree:node_modules/debug Completed in 4ms
+226 silly placeDep ROOT mkdirp@0.5.5 OK for: fstream@1.0.12 want: >=0.5 0
+227 silly fetch manifest minimist@^1.2.5
+228 http fetch GET 200 https://registry.npmjs.org/minimist 51ms (cache revalidated)
+229 timing idealTree:node_modules/fstream Completed in 56ms
+230 silly placeDep ROOT minimatch@3.0.4 OK for: fstream-ignore@1.0.5 want: ^3.0.0
+231 silly fetch manifest brace-expansion@^1.1.7
+232 http fetch GET 200 https://registry.npmjs.org/brace-expansion 63ms (cache revalidated)
+233 timing idealTree:node_modules/fstream-ignore Completed in 72ms
+234 silly placeDep ROOT brace-expansion@1.1.11 OK for: minimatch@3.0.4 want: ^1.1.7
+235 silly fetch manifest balanced-match@^1.0.0
+236 silly fetch manifest concat-map@0.0.1
+237 http fetch GET 200 https://registry.npmjs.org/concat-map 91ms (cache revalidated)
+238 http fetch GET 200 https://registry.npmjs.org/balanced-match 612ms (cache revalidated)
+239 timing idealTree:node_modules/minimatch Completed in 624ms
+240 silly placeDep ROOT balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+241 silly placeDep ROOT concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+242 timing idealTree:node_modules/brace-expansion Completed in 13ms
+243 timing idealTree:node_modules/balanced-match Completed in 0ms
+244 timing idealTree:node_modules/concat-map Completed in 0ms
+245 silly placeDep ROOT minimist@1.2.5 OK for: mkdirp@0.5.5 want: ^1.2.5
+246 timing idealTree:node_modules/mkdirp Completed in 2ms
+247 timing idealTree:node_modules/minimist Completed in 0ms
+248 timing idealTree:node_modules/ms Completed in 0ms
+249 silly placeDep ROOT wrappy@1.0.2 OK for: once@1.4.0 want: 1
+250 timing idealTree:node_modules/once Completed in 4ms
+251 silly placeDep ROOT glob@7.2.0 OK for: rimraf@2.7.1 want: ^7.1.3
+252 silly fetch manifest fs.realpath@^1.0.0
+253 silly fetch manifest inflight@^1.0.4
+254 silly fetch manifest path-is-absolute@^1.0.0
+255 http fetch GET 200 https://registry.npmjs.org/fs.realpath 65ms (cache revalidated)
+256 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 65ms (cache revalidated)
+257 http fetch GET 200 https://registry.npmjs.org/inflight 72ms (cache revalidated)
+258 timing idealTree:node_modules/rimraf Completed in 83ms
+259 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.0 want: ^1.0.0
+260 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.0 want: ^1.0.4
+261 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.0 want: ^1.0.0
+262 timing idealTree:node_modules/glob Completed in 11ms
+263 timing idealTree:node_modules/fs.realpath Completed in 0ms
+264 timing idealTree:node_modules/inflight Completed in 1ms
+265 timing idealTree:node_modules/path-is-absolute Completed in 0ms
+266 silly placeDep ROOT block-stream@0.0.9 OK for: tar@2.2.2 want: *
+267 timing idealTree:node_modules/tar Completed in 2ms
+268 timing idealTree:node_modules/block-stream Completed in 0ms
+269 silly placeDep node_modules/through2 readable-stream@1.0.34 OK for: through2@0.6.5 want: >=1.0.33-1 <1.1.0-0
+270 silly placeDep ROOT xtend@4.0.2 OK for: through2@0.6.5 want: >=4.0.0 <4.1.0-0
+271 timing idealTree:node_modules/through2 Completed in 8ms
+272 silly placeDep node_modules/tmp rimraf@3.0.2 OK for: tmp@0.2.1 want: ^3.0.0
+273 timing idealTree:node_modules/tmp Completed in 3ms
+274 timing idealTree:node_modules/uid-number Completed in 0ms
+275 timing idealTree:node_modules/universalify Completed in 1ms
+276 silly placeDep ROOT builtins@1.0.3 OK for: validate-npm-package-name@3.0.0 want: ^1.0.3
+277 timing idealTree:node_modules/validate-npm-package-name Completed in 2ms
+278 timing idealTree:node_modules/builtins Completed in 0ms
+279 silly placeDep ROOT isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+280 timing idealTree:node_modules/which Completed in 3ms
+281 timing idealTree:node_modules/isexe Completed in 0ms
+282 timing idealTree:node_modules/wrappy Completed in 0ms
+283 timing idealTree:node_modules/xtend Completed in 0ms
+284 timing idealTree:node_modules/yallist Completed in 0ms
+285 silly placeDep node_modules/tar-pack isarray@1.0.0 OK for: readable-stream@2.3.7 want: ~1.0.0
+286 silly placeDep ROOT process-nextick-args@2.0.1 OK for: readable-stream@2.3.7 want: ~2.0.0
+287 silly placeDep ROOT safe-buffer@5.1.2 OK for: readable-stream@2.3.7 want: ~5.1.1
+288 silly placeDep node_modules/tar-pack string_decoder@1.1.1 OK for: readable-stream@2.3.7 want: ~1.1.1
+289 silly placeDep ROOT util-deprecate@1.0.2 OK for: readable-stream@2.3.7 want: ~1.0.1
+290 timing idealTree:node_modules/tar-pack/node_modules/readable-stream Completed in 14ms
+291 timing idealTree:node_modules/process-nextick-args Completed in 0ms
+292 timing idealTree:node_modules/safe-buffer Completed in 0ms
+293 timing idealTree:node_modules/util-deprecate Completed in 0ms
+294 timing idealTree:node_modules/tar-pack/node_modules/isarray Completed in 0ms
+295 timing idealTree:node_modules/tar-pack/node_modules/string_decoder Completed in 0ms
+296 timing idealTree:node_modules/through2/node_modules/readable-stream Completed in 0ms
+297 timing idealTree:node_modules/tmp/node_modules/rimraf Completed in 0ms
+298 timing idealTree:buildDeps Completed in 17512ms
+299 timing idealTree:fixDepFlags Completed in 4ms
+300 timing idealTree Completed in 17541ms
+301 timing reify:loadTrees Completed in 17542ms
+302 timing reify:diffTrees Completed in 7ms
+303 silly reify moves {}
+304 timing reify:retireShallow Completed in 1ms
+305 timing reify:createSparse Completed in 62ms
+306 timing reify:loadBundles Completed in 0ms
+307 silly audit bulk request {
+307 silly audit   'create-react-app': [ '5.0.0' ],
+307 silly audit   chalk: [ '4.1.2' ],
+307 silly audit   commander: [ '4.1.1' ],
+307 silly audit   'cross-spawn': [ '7.0.3' ],
+307 silly audit   envinfo: [ '7.8.1' ],
+307 silly audit   'fs-extra': [ '10.0.0' ],
+307 silly audit   hyperquest: [ '2.1.3' ],
+307 silly audit   prompts: [ '2.4.2' ],
+307 silly audit   semver: [ '7.3.5' ],
+307 silly audit   'tar-pack': [ '3.4.1' ],
+307 silly audit   tmp: [ '0.2.1' ],
+307 silly audit   'validate-npm-package-name': [ '3.0.0' ],
+307 silly audit   'ansi-styles': [ '4.3.0' ],
+307 silly audit   'supports-color': [ '7.2.0' ],
+307 silly audit   'color-convert': [ '2.0.1' ],
+307 silly audit   'color-name': [ '1.1.4' ],
+307 silly audit   'path-key': [ '3.1.1' ],
+307 silly audit   'shebang-command': [ '2.0.0' ],
+307 silly audit   which: [ '2.0.2' ],
+307 silly audit   'graceful-fs': [ '4.2.8' ],
+307 silly audit   jsonfile: [ '6.1.0' ],
+307 silly audit   universalify: [ '2.0.0' ],
+307 silly audit   'buffer-from': [ '0.1.2' ],
+307 silly audit   duplexer2: [ '0.0.2' ],
+307 silly audit   through2: [ '0.6.5' ],
+307 silly audit   'readable-stream': [ '1.1.14', '2.3.7', '1.0.34' ],
+307 silly audit   kleur: [ '3.0.3' ],
+307 silly audit   sisteransi: [ '1.0.5' ],
+307 silly audit   'core-util-is': [ '1.0.3' ],
+307 silly audit   inherits: [ '2.0.4' ],
+307 silly audit   isarray: [ '0.0.1', '1.0.0' ],
+307 silly audit   string_decoder: [ '0.10.31', '1.1.1' ],
+307 silly audit   'lru-cache': [ '6.0.0' ],
+307 silly audit   yallist: [ '4.0.0' ],
+307 silly audit   'shebang-regex': [ '3.0.0' ],
+307 silly audit   'has-flag': [ '4.0.0' ],
+307 silly audit   debug: [ '2.6.9' ],
+307 silly audit   fstream: [ '1.0.12' ],
+307 silly audit   'fstream-ignore': [ '1.0.5' ],
+307 silly audit   once: [ '1.4.0' ],
+307 silly audit   rimraf: [ '2.7.1', '3.0.2' ],
+307 silly audit   tar: [ '2.2.2' ],
+307 silly audit   'uid-number': [ '0.0.6' ],
+307 silly audit   ms: [ '2.0.0' ],
+307 silly audit   mkdirp: [ '0.5.5' ],
+307 silly audit   minimatch: [ '3.0.4' ],
+307 silly audit   'brace-expansion': [ '1.1.11' ],
+307 silly audit   'balanced-match': [ '1.0.2' ],
+307 silly audit   'concat-map': [ '0.0.1' ],
+307 silly audit   minimist: [ '1.2.5' ],
+307 silly audit   wrappy: [ '1.0.2' ],
+307 silly audit   glob: [ '7.2.0' ],
+307 silly audit   'fs.realpath': [ '1.0.0' ],
+307 silly audit   inflight: [ '1.0.6' ],
+307 silly audit   'path-is-absolute': [ '1.0.1' ],
+307 silly audit   'block-stream': [ '0.0.9' ],
+307 silly audit   xtend: [ '4.0.2' ],
+307 silly audit   builtins: [ '1.0.3' ],
+307 silly audit   isexe: [ '2.0.0' ],
+307 silly audit   'process-nextick-args': [ '2.0.1' ],
+307 silly audit   'safe-buffer': [ '5.1.2' ],
+307 silly audit   'util-deprecate': [ '1.0.2' ]
+307 silly audit }
+308 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 579ms
+309 timing auditReport:getReport Completed in 588ms
+310 silly audit report {
+310 silly audit report   tar: [
+310 silly audit report     {
+310 silly audit report       id: 1005040,
+310 silly audit report       url: 'https://github.com/advisories/GHSA-5955-9wpr-37jh',
+310 silly audit report       title: 'Arbitrary File Creation/Overwrite on Windows via insufficient relative path sanitization',
+310 silly audit report       severity: 'high',
+310 silly audit report       vulnerable_versions: '<4.4.18'
+310 silly audit report     },
+310 silly audit report     {
+310 silly audit report       id: 1005043,
+310 silly audit report       url: 'https://github.com/advisories/GHSA-qq89-hq3f-393p',
+310 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+310 silly audit report       severity: 'high',
+310 silly audit report       vulnerable_versions: '<4.4.18'
+310 silly audit report     },
+310 silly audit report     {
+310 silly audit report       id: 1005046,
+310 silly audit report       url: 'https://github.com/advisories/GHSA-9r2w-394v-53qc',
+310 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links',
+310 silly audit report       severity: 'high',
+310 silly audit report       vulnerable_versions: '<4.4.16'
+310 silly audit report     },
+310 silly audit report     {
+310 silly audit report       id: 1005078,
+310 silly audit report       url: 'https://github.com/advisories/GHSA-3jfq-g458-7qm9',
+310 silly audit report       title: 'Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization',
+310 silly audit report       severity: 'high',
+310 silly audit report       vulnerable_versions: '<3.2.2'
+310 silly audit report     },
+310 silly audit report     {
+310 silly audit report       id: 1005082,
+310 silly audit report       url: 'https://github.com/advisories/GHSA-r628-mhmh-qjhw',
+310 silly audit report       title: 'Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning',
+310 silly audit report       severity: 'high',
+310 silly audit report       vulnerable_versions: '<3.2.3'
+310 silly audit report     }
+310 silly audit report   ]
+310 silly audit report }
+311 timing metavuln:packument:tar Completed in 1ms
+312 timing metavuln:cache:get:security-advisory:tar:VtfoMHRPReMcCW9w4u31BWYREcViCFn3asZmPh4Q1xtBDUHlj8G6pba9zfaKmvRrJr1jooSQdagZ+yr2Ze8IzA== Completed in 122ms
+313 timing metavuln:load:security-advisory:tar:1005040 Completed in 33ms
+314 timing metavuln:cache:get:security-advisory:tar:FVraO3vxxEwRFvae/qn54EZfqhwhMp2WELNyGn+whkwy5AiGGQUYfPZKYo5gVQTwEDWGqrw2ZBfQh7ybqYruyw== Completed in 167ms
+315 timing metavuln:load:security-advisory:tar:1005043 Completed in 24ms
+316 timing metavuln:cache:get:security-advisory:tar:N+UM5HifWs2F2zc5VvSjMcsJxwKLXnFlwekBDx20VEMxf4a50dbc9azjEqPWN9F4CRYdtlo8htl2my5iv0W3vQ== Completed in 198ms
+317 timing metavuln:load:security-advisory:tar:1005078 Completed in 17ms
+318 timing metavuln:cache:get:security-advisory:tar:Ar/tm+IovdyvUguUGqdJRiv3vndjlRFiAxefrycd9JAfXDz8f8J0i65HKJPcSI2UxmfNbqdK5JZhCWVFVGWuEg== Completed in 218ms
+319 timing metavuln:load:security-advisory:tar:1005046 Completed in 18ms
+320 timing metavuln:cache:get:security-advisory:tar:34G+WConGFFWccUb8BgaeTYbN3uYhdQmRaxXSUSIQ8meLzACygefO7EXhn6gKUnnryCqTBplIbxCXTplY0bYZw== Completed in 237ms
+321 timing metavuln:load:security-advisory:tar:1005082 Completed in 12ms
+322 timing reifyNode:node_modules/process-nextick-args Completed in 1004ms
+323 timing reifyNode:node_modules/path-is-absolute Completed in 1004ms
+324 timing reifyNode:node_modules/inflight Completed in 1005ms
+325 timing reifyNode:node_modules/wrappy Completed in 1005ms
+326 timing reifyNode:node_modules/brace-expansion Completed in 1007ms
+327 timing reifyNode:node_modules/ms Completed in 1009ms
+328 timing reifyNode:node_modules/fstream-ignore Completed in 1008ms
+329 timing reifyNode:node_modules/once Completed in 1018ms
+330 timing reifyNode:node_modules/buffer-from Completed in 1026ms
+331 timing reifyNode:node_modules/universalify Completed in 1025ms
+332 timing reifyNode:node_modules/color-name Completed in 1035ms
+333 timing reifyNode:node_modules/shebang-command Completed in 1039ms
+334 timing reifyNode:node_modules/block-stream Completed in 1052ms
+335 timing reifyNode:node_modules/uid-number Completed in 1060ms
+336 timing reifyNode:node_modules/shebang-regex Completed in 1061ms
+337 timing reifyNode:node_modules/has-flag Completed in 1061ms
+338 timing reifyNode:node_modules/string_decoder Completed in 1062ms
+339 timing reifyNode:node_modules/lru-cache Completed in 1063ms
+340 timing reifyNode:node_modules/inherits Completed in 1063ms
+341 timing reifyNode:node_modules/core-util-is Completed in 1064ms
+342 timing reifyNode:node_modules/kleur Completed in 1063ms
+343 timing reifyNode:node_modules/through2 Completed in 1064ms
+344 timing reifyNode:node_modules/path-key Completed in 1064ms
+345 timing reifyNode:node_modules/supports-color Completed in 1065ms
+346 timing reifyNode:node_modules/util-deprecate Completed in 1084ms
+347 timing reifyNode:node_modules/fs.realpath Completed in 1083ms
+348 timing reifyNode:node_modules/balanced-match Completed in 1083ms
+349 timing reifyNode:node_modules/minimatch Completed in 1083ms
+350 timing reifyNode:node_modules/rimraf Completed in 1082ms
+351 timing reifyNode:node_modules/yallist Completed in 1083ms
+352 timing reifyNode:node_modules/isarray Completed in 1083ms
+353 timing reifyNode:node_modules/sisteransi Completed in 1082ms
+354 timing reifyNode:node_modules/ansi-styles Completed in 1083ms
+355 timing reifyNode:node_modules/safe-buffer Completed in 1104ms
+356 timing reifyNode:node_modules/xtend Completed in 1103ms
+357 timing reifyNode:node_modules/builtins Completed in 1104ms
+358 timing reifyNode:node_modules/mkdirp Completed in 1103ms
+359 timing reifyNode:node_modules/which Completed in 1102ms
+360 timing reifyNode:node_modules/create-react-app Completed in 1105ms
+361 timing reifyNode:node_modules/tar-pack/node_modules/string_decoder Completed in 1108ms
+362 timing reifyNode:node_modules/jsonfile Completed in 1113ms
+363 timing reifyNode:node_modules/tmp/node_modules/rimraf Completed in 1121ms
+364 timing reifyNode:node_modules/tar-pack/node_modules/isarray Completed in 1122ms
+365 timing reifyNode:node_modules/concat-map Completed in 1130ms
+366 timing reifyNode:node_modules/color-convert Completed in 1127ms
+367 timing reifyNode:node_modules/isexe Completed in 1146ms
+368 timing reifyNode:node_modules/duplexer2 Completed in 1142ms
+369 timing reifyNode:node_modules/graceful-fs Completed in 1141ms
+370 timing reifyNode:node_modules/glob Completed in 1155ms
+371 timing reifyNode:node_modules/tmp Completed in 1157ms
+372 timing reifyNode:node_modules/chalk Completed in 1158ms
+373 timing reifyNode:node_modules/cross-spawn Completed in 1170ms
+374 timing reifyNode:node_modules/validate-npm-package-name Completed in 1174ms
+375 timing reifyNode:node_modules/commander Completed in 1177ms
+376 timing reifyNode:node_modules/envinfo Completed in 1194ms
+377 timing metavuln:cache:put:security-advisory:tar:VtfoMHRPReMcCW9w4u31BWYREcViCFn3asZmPh4Q1xtBDUHlj8G6pba9zfaKmvRrJr1jooSQdagZ+yr2Ze8IzA== Completed in 470ms
+378 timing metavuln:calculate:security-advisory:tar:1005040 Completed in 629ms
+379 timing metavuln:cache:put:security-advisory:tar:Ar/tm+IovdyvUguUGqdJRiv3vndjlRFiAxefrycd9JAfXDz8f8J0i65HKJPcSI2UxmfNbqdK5JZhCWVFVGWuEg== Completed in 394ms
+380 timing metavuln:calculate:security-advisory:tar:1005046 Completed in 630ms
+381 timing metavuln:cache:put:security-advisory:tar:34G+WConGFFWccUb8BgaeTYbN3uYhdQmRaxXSUSIQ8meLzACygefO7EXhn6gKUnnryCqTBplIbxCXTplY0bYZw== Completed in 381ms
+382 timing metavuln:calculate:security-advisory:tar:1005082 Completed in 630ms
+383 timing metavuln:cache:put:security-advisory:tar:FVraO3vxxEwRFvae/qn54EZfqhwhMp2WELNyGn+whkwy5AiGGQUYfPZKYo5gVQTwEDWGqrw2ZBfQh7ybqYruyw== Completed in 473ms
+384 timing metavuln:calculate:security-advisory:tar:1005043 Completed in 664ms
+385 timing reifyNode:node_modules/tar-pack Completed in 1244ms
+386 timing reifyNode:node_modules/through2/node_modules/readable-stream Completed in 1248ms
+387 timing reifyNode:node_modules/debug Completed in 1265ms
+388 timing reifyNode:node_modules/readable-stream Completed in 1264ms
+389 timing metavuln:cache:put:security-advisory:tar:N+UM5HifWs2F2zc5VvSjMcsJxwKLXnFlwekBDx20VEMxf4a50dbc9azjEqPWN9F4CRYdtlo8htl2my5iv0W3vQ== Completed in 477ms
+390 timing metavuln:calculate:security-advisory:tar:1005078 Completed in 692ms
+391 timing metavuln:packument:tar-pack Completed in 0ms
+392 timing metavuln:cache:get:security-advisory:tar-pack:fhplZpdnXlyYzsHjGGJA/yDVWNM5xETg67FXmj+i48MM3vb73WzTfAqtG6H65b0sv9lB5Avb15YHQFI1jNjl2Q== Completed in 6ms
+393 timing metavuln:load:security-advisory:tar-pack:VtfoMHRPReMcCW9w4u31BWYREcViCFn3asZmPh4Q1xtBDUHlj8G6pba9zfaKmvRrJr1jooSQdagZ+yr2Ze8IzA== Completed in 41ms
+394 timing reifyNode:node_modules/hyperquest Completed in 1329ms
+395 timing reifyNode:node_modules/minimist Completed in 1338ms
+396 timing reifyNode:node_modules/fstream Completed in 1358ms
+397 timing reifyNode:node_modules/tar-pack/node_modules/readable-stream Completed in 1383ms
+398 timing metavuln:cache:put:security-advisory:tar-pack:fhplZpdnXlyYzsHjGGJA/yDVWNM5xETg67FXmj+i48MM3vb73WzTfAqtG6H65b0sv9lB5Avb15YHQFI1jNjl2Q== Completed in 90ms
+399 timing metavuln:calculate:security-advisory:tar-pack:VtfoMHRPReMcCW9w4u31BWYREcViCFn3asZmPh4Q1xtBDUHlj8G6pba9zfaKmvRrJr1jooSQdagZ+yr2Ze8IzA== Completed in 138ms
+400 timing metavuln:packument:create-react-app Completed in 1ms
+401 timing metavuln:cache:get:security-advisory:create-react-app:ZGzP55AE1EJG8Jv4DQFupK5FDpLYQuEB3nHTsgnSIVq7Sl12eY5EQ4WJCvU0bUyXYqbG/cscxGh9HC+VksCmGw== Completed in 4ms
+402 timing metavuln:load:security-advisory:create-react-app:fhplZpdnXlyYzsHjGGJA/yDVWNM5xETg67FXmj+i48MM3vb73WzTfAqtG6H65b0sv9lB5Avb15YHQFI1jNjl2Q== Completed in 24ms
+403 timing metavuln:cache:put:security-advisory:create-react-app:ZGzP55AE1EJG8Jv4DQFupK5FDpLYQuEB3nHTsgnSIVq7Sl12eY5EQ4WJCvU0bUyXYqbG/cscxGh9HC+VksCmGw== Completed in 76ms
+404 timing metavuln:calculate:security-advisory:create-react-app:fhplZpdnXlyYzsHjGGJA/yDVWNM5xETg67FXmj+i48MM3vb73WzTfAqtG6H65b0sv9lB5Avb15YHQFI1jNjl2Q== Completed in 104ms
+405 timing auditReport:init Completed in 939ms
+406 timing reify:audit Completed in 1531ms
+407 timing reifyNode:node_modules/semver Completed in 1508ms
+408 timing reifyNode:node_modules/fs-extra Completed in 1520ms
+409 timing reifyNode:node_modules/prompts Completed in 1561ms
+410 warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+411 timing reifyNode:node_modules/tar Completed in 1649ms
+412 timing reify:unpack Completed in 1654ms
+413 timing reify:unretire Completed in 1ms
+414 timing build:queue Completed in 11ms
+415 timing build:link:node_modules/create-react-app Completed in 14ms
+416 timing build:link:node_modules/tmp/node_modules/rimraf Completed in 8ms
+417 timing build:link:node_modules/envinfo Completed in 9ms
+418 timing build:link:node_modules/mkdirp Completed in 9ms
+419 timing build:link:node_modules/rimraf Completed in 8ms
+420 timing build:link:node_modules/semver Completed in 8ms
+421 timing build:link:node_modules/which Completed in 8ms
+422 timing build:link Completed in 15ms
+423 timing build:deps Completed in 27ms
+424 timing build Completed in 29ms
+425 timing reify:build Completed in 30ms
+426 timing reify:trash Completed in 0ms
+427 timing reify:save Completed in 46ms
+428 timing reify Completed in 19399ms
+429 timing command:exec Completed in 254502ms
+430 verbose exit 0
+431 timing npm Completed in 255274ms
+432 info ok
